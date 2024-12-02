@@ -32,6 +32,7 @@ public class SyntaxAnalysisAction implements ActionListener {
         } else {
             result.append("Syntax Analysis Successful!\n");
             compiler.getResultTextArea().setText(result.toString());
+            compiler.getSyntaxAnalysisButton().setEnabled(false);
             compiler.getSemanticAnalysisButton().setEnabled(true);
         }
     }

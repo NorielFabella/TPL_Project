@@ -72,7 +72,7 @@ public class Compiler extends JFrame {
        semanticAnalysisButton.setMargin(buttonPadding);
        clearButton.setMargin(buttonPadding);
 
-       setButtonEnabled(openFileButton, true);
+       //setButtonEnabled(openFileButton, true);
        lexicalAnalysisButton.setEnabled(false);
        syntaxAnalysisButton.setEnabled(false);
        semanticAnalysisButton.setEnabled(false);
